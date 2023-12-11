@@ -29,10 +29,46 @@ Para criarmos uma variavel utilizaremos o prefixo `$`, seguido do nome da variav
 - Arrays e Objetos tambem são suportados.
 
 ``` bash
-  $nome = "Guilherme"; //string = texto
-  $number1 = 10; //Inteiro = numero inteiro
-  $number2 = 5.123; //Float = numero "quebrado" ou com virgula
-  $check = True; //Boolean = verdadeiro ou falso
+  $nome = "Guilherme";   //string = Texto
+  $number1 = 10;   //Inteiro = Numero inteiro
+  $number2 = 5.123;   //Float = Numero "quebrado" ou com virgula
+  $check = True;   //Boolean = Verdadeiro ou Falso
 ```
+
+**Estruturas de Controle**
+
+- 'if', 'else', 'elseif' para condicionais.
+- 'for', 'while', 'do-while' para loops.
+
+``` bash
+// estrutura
+ 
+if(){
+  ...
+}elseif(){
+  ...
+}else{
+  ...
+}
+
+// exemplo
+ $numero1 = 10;
+ $numero2 = 20;
+
+if($numero1 > $numero2){
+  return "O numero $numero1 é maior que o numero $numero2"
+}elseif($numero1 < $numero2){
+  return "O numero $numero2 é maior que o numero $numero1"
+}else{
+  return "Os numeros são iguais"
+}
+
+//fazer estrutura for ...
+
+
+
+```
+
+
 
 
