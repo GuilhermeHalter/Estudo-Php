@@ -55,6 +55,18 @@ podemos utilizar "\n" para uma string ficar em uma nova linha
   echo "\nBebi água";
 ```
 
+-Concatenação de Strings
+
+utilizamos "." para juntar 2 ou mais strings
+``` bash
+  echo "Acordei"."Bebi água";  //Print: AcordeiBebi água
+
+  //agora vamos adicionar um espaço no final da string "Acordei"
+
+  echo "Acordei "."Bebi água" //Print: Acordei Bebi água
+ 
+```
+
 
 
 **Estruturas de Controle**
