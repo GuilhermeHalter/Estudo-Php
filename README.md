@@ -34,6 +34,28 @@ Para criarmos uma variavel utilizaremos o prefixo `$`, seguido do nome da variav
   $number2 = 5.123;   //Float = Numero "quebrado" ou com virgula
   $check = True;   //Boolean = Verdadeiro ou Falso
 ```
+**String**
+
+- Sequência de fuga
+
+como colocar aspas dentro de aspas 
+
+para colocar aspas dentro de aspas utilizamos ' \ '   
+``` bash
+  echo "Eu disse "oi" para o cachorro";  //O php não vai entender o "oi" pq ele está fora das aspas
+
+  echo "Eu disse \"oi\" para o cachorro"; // agora temos aspas dentro das aspas
+
+```
+
+podemos utilizar "\n" para uma string ficar em uma nova linha
+
+``` bash
+  echo "Acordei";
+  echo "\nBebi água";
+```
+
+
 
 **Estruturas de Controle**
 
