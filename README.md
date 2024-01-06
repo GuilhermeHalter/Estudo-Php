@@ -155,12 +155,12 @@ if($numero1 > $numero2){
 ### Sites Referências/Estudo
 
 Sites para estudo:
-- Documentação do PHP [https://www.php.net/manual/en/index.php]
-- Codecademy [https://www.codecademy.com/]
-- W3schools [https://www.w3schools.com/php/default.asp]
+- [Documentação do PHP](https://www.php.net/manual/en/index.php)
+- [Codecademy](https://www.codecademy.com/)
+- [W3schools](https://www.w3schools.com/php/default.asp)
 
 Compilador de código PHP online: 
-- [https://www.programiz.com/php/online-compiler/]
+- [Programiz](https://www.programiz.com/php/online-compiler/)
 
 
 
