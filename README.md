@@ -1,22 +1,42 @@
 # Docs para Estudo de PHP.
-Site para estudo - [https://www.codecademy.com/]
-
-Compilador de código PHP online - [https://www.programiz.com/php/online-compiler/]
-
-**O que é PHP?**
+## O que é PHP?
 
 - PHP é uma linguagem de script de servidor de código aberto usada principalmente para desenvolvimento web. </br>
 - Pode ser embutido no HTML ou usado como uma linguagem independente.
 
-**Sintaxe Básica**
+### Sintaxe Básica
 
-Criando um arquivo .php nele utilizaremos a tag
+Ao criar um arquivo `.php`, nele utilizaremos a tag
 
 ``` bash
-  <?php ... ?>
+  <?php ?>
 ```
 
-**Variáveis**
+Faremos nossos scripts dentro dessa tag, exemplo:
+
+``` bash
+<?php
+  echo "Olá mundo!!!";
+?>
+```
+Um arquivo PHP normalmente contém tags HTML e algum código de script PHP.
+
+```bash
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>Minha primeira página em PHP</h1>
+
+<?php
+echo "Olá mundo!";
+?>
+
+</body>
+</html>
+```
+
+### Variáveis
 
 Para criarmos uma variavel utilizaremos o prefixo `$`, seguido do nome da variavel que vamos definir. 
 
@@ -24,7 +44,7 @@ Para criarmos uma variavel utilizaremos o prefixo `$`, seguido do nome da variav
   $nome = "...";
 ```
 
-**Tipos de Dados**
+### Tipos de Dados
 
 - No php temos alguns tipos de daods basicos como: inteiro, string, floats, booleanos.
 
@@ -36,7 +56,7 @@ Para criarmos uma variavel utilizaremos o prefixo `$`, seguido do nome da variav
   $number2 = 5.123;   //Float = Numero "quebrado" ou com virgula
   $check = True;   //Boolean = Verdadeiro ou Falso
 ```
-**String**
+### String
 
 - Sequência de fuga
 
@@ -71,7 +91,7 @@ utilizamos "." para juntar 2 ou mais strings
 
 
 
-**Estruturas de Controle**
+### Estruturas de Controle
 
 - 'if', 'else', 'elseif' para condicionais.
 - 'for', 'while', 'do-while' para loops.
@@ -101,10 +121,16 @@ if($numero1 > $numero2){
 
 //fazer estrutura for ...
 
-
-
 ```
 
+### Sites Referências/Estudo
+
+Sites para estudo:
+- [https://www.codecademy.com/]
+- [https://www.w3schools.com/php/default.asp]
+
+Compilador de código PHP online: 
+- [https://www.programiz.com/php/online-compiler/]
 
 
 
