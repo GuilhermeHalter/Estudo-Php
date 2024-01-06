@@ -36,6 +36,35 @@ echo "Olá mundo!";
 </html>
 ```
 
+### Comentários
+
+O comentário no PHP é uma linha de código que não é executada pelo programa. Ele serve para ser lido por alguém que está olhando o código.
+
+- Permite que outras pessoas entendam seu código.
+- Que você se lembre do que você fez.
+- Deixe de fora algumas partes do seu código.
+
+exemplo de diferentes tipos de sintaxes para comentar no PHP:
+
+`//`  -> Comenta uma unica linha de código.
+
+`#`   -> Tambem comenta uma única linha de código.
+
+`/**/`  -> Comenta varias linhas de codigo.
+
+```
+<?php
+
+  // echo "Olá mundo!!!";
+
+  # echo "Adoro PHP";
+
+  /* $txt= "Olá mundo!!!";
+     echo $txt; */
+
+?>
+```
+
 ### Variáveis
 
 Para criarmos uma variavel utilizaremos o prefixo `$`, seguido do nome da variavel que vamos definir. 
